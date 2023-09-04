@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: mypersonal
+  datasource:
+    url: jdbc:mysql://localhost:3306/personal
+    username: root
+    password: m@rgarida2018
+  jpa:
+    open-in-view: true
+    hibernate.ddl-auto: update
